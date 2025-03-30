@@ -56,3 +56,10 @@ var carroDaAna = _objectSpread(_objectSpread({}, carroDaJulia), {}, {
   motor: 1.8
 });
 console.log(carroDaAna);
+
+// Desestruturação -----------------------
+
+var motorDoCarroDaAna = carroDaAna.motor;
+var motorDoCarroDaJulia = carroDaJulia.motor;
+// Cria um alias para a propriedade motor 
+// No caso o alias é motorDoCarraDaAna
