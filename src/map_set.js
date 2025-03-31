@@ -60,3 +60,10 @@ cpfs.forEach((valor) => {
 
 // Criar uma listagem de itens únicos
 const array = ['Caio Croccia', 'Maria Isabel', 'Luana Gomes', 'Matheus Olivo', 'Luana Gomes']
+
+const arrayComoSet = new Set([...array]);
+
+const arraySemItensDuplicados = [...arrayComoSet]
+
+console.log(arrayComoSet);
+console.log(arraySemItensDuplicados);
